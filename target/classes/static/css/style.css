@@ -1,0 +1,32 @@
+body {
+    background: #343535b0;
+    color: #fcf5f5;
+}
+
+td {max-width: 500px;}
+
+img.avatar {
+    max-width: 50px;
+    border: black solid 2px;
+    border-radius: 20%;
+}
+
+tr {text-align: center;}
+
+tr:nth-child(2n) {background-color: #2b3131a3;}
+
+i.fas.fa-heartbeat {color: #77f529;}
+
+i.fas.fa-question {color: #de8a0c;}
+
+i.fas.fa-skull-crossbones {color: #0c0c0c;}
+
+i.fas.fa-mars {color: #3d4bc5;}
+
+i.fas.fa-venus {color: #c7679d;}
+
+a {color: #b7b7e9;}
+
+a:hover {color: #fff7f7;}
+
+.error {text-align: center;}
