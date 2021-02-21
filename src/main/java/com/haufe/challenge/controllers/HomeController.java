@@ -19,7 +19,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String showHomePage(Model model) {
-        List<ResponseWrapper> responses = characterService.fetchResponses();
+        List<ResponseWrapper> responses = characterService.fetchAllCharactersAndInfo();
         List<Character> characters = new ArrayList<>();
 
         for (ResponseWrapper response: responses) {
